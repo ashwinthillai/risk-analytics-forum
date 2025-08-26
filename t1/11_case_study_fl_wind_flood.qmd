@@ -1,0 +1,8 @@
+---
+title: "Case Study: Florida Wind & Flood Portfolio (Premium = $1B)"
+---
+
+**Setup.** Exposure snapshot; hazard overlays; baseline AAL/EP (gross).  
+**Decisions.** Risk appetite; target retention; selected RI program (QS/XoL/parametric).  
+**Results.** Gross→Net AAL bridge; tail reduction; capital alignment.  
+**Lessons.** Model sensitivity; governance wins; roadmap.

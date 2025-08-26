@@ -1,0 +1,62 @@
+{
+  "index.qmd": {
+    "index.html": "2e66c489"
+  },
+  "t1/01_exposure_hazard_mapping.qmd": {
+    "01_exposure_hazard_mapping.html": "12fd0299"
+  },
+  "t1/02_cat_modeling_frameworks.qmd": {
+    "02_cat_modeling_frameworks.html": "2d169ef0"
+  },
+  "t1/03_metrics_aal_ep_tvar.qmd": {
+    "03_metrics_aal_ep_tvar.html": "c8d4c3a8"
+  },
+  "t2/00_track2_overview.qmd": {
+    "00_track2_overview.html": "6a0afe3b"
+  },
+  "t2/01_market_landscape.qmd": {
+    "01_market_landscape.html": "6e5f9ac8"
+  },
+  "t3/00_track3_overview.qmd": {
+    "00_track3_overview.html": "9378a8e4"
+  },
+  "t3/01_nonstationarity_methods.qmd": {
+    "01_nonstationarity_methods.html": "907be39e"
+  },
+  "references.qmd": {
+    "references.html": "67b3f520"
+  },
+  "appA_templates_checklists.qmd": {
+    "appA_templates_checklists.html": "868ed9c0"
+  },
+  "appB_glossary.qmd": {
+    "appB_glossary.html": "c8828cd1"
+  },
+  "t1/00_track1_overview.qmd": {
+    "00_track1_overview.html": "8f67a975"
+  },
+  "t1/04_capital_adequacy_risk_appetite.qmd": {
+    "04_capital_adequacy_risk_appetite.html": "d700feb8"
+  },
+  "t1/05_reinsurance_and_risk_transfer.qmd": {
+    "05_reinsurance_and_risk_transfer.html": "dfd30925"
+  },
+  "t1/06_underwriting_pricing_models.qmd": {
+    "06_underwriting_pricing_models.html": "b1542548"
+  },
+  "t1/07_portfolio_diversification.qmd": {
+    "07_portfolio_diversification.html": "e85dc88c"
+  },
+  "t1/08_risk_mitigation_engineering.qmd": {
+    "08_risk_mitigation_engineering.html": "6538d5d4"
+  },
+  "t1/09_governance_monitoring_erm.qmd": {
+    "09_governance_monitoring_erm.html": "d67b719d"
+  },
+  "t1/10_innovation_research_pipeline.qmd": {
+    "10_innovation_research_pipeline.html": "ad970fce"
+  },
+  "t1/11_case_study_fl_wind_flood.qmd": {
+    "11_case_study_fl_wind_flood.html": "b85ff89e"
+  }
+}

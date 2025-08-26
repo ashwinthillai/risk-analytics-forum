@@ -1,0 +1,86 @@
+project:
+  type: book
+
+metadata:
+  forum_organizer: "Ashwin Thillai, M.S., C.E.E.M"
+  book_editor: "Ashwin Thillai, M.S., C.E.E.M"
+  version: "v1.0"
+  release_date: "2025-08-26"
+  host_chapter: "Verisk EES Chapter (Boston)"
+
+book:
+  title: "Insurance Risk & Analytics Forum"
+  subtitle: "A practitioner casebook on ERM, catastrophe modeling, and insurance analytics"
+
+  chapters:
+    - index.qmd
+
+    - part: "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)"
+      chapters:
+        - t1/00_track1_overview.qmd
+        - t1/01_exposure_hazard_mapping.qmd
+        - t1/02_cat_modeling_frameworks.qmd
+        - t1/03_metrics_aal_ep_tvar.qmd
+        - t1/04_capital_adequacy_risk_appetite.qmd
+        - t1/05_reinsurance_and_risk_transfer.qmd
+        - t1/06_underwriting_pricing_models.qmd
+        - t1/07_portfolio_diversification.qmd
+        - t1/08_risk_mitigation_engineering.qmd
+        - t1/09_governance_monitoring_erm.qmd
+        - t1/10_innovation_research_pipeline.qmd
+        - t1/11_case_study_fl_wind_flood.qmd
+
+    - part: "Track-2:(TBD)"
+      chapters:
+        - t2/00_track2_overview.qmd
+
+
+    - part: "Track-3:(TBD)"
+      chapters:
+        - t3/00_track3_overview.qmd
+
+  appendices:
+    - references.qmd
+    - appA_templates_checklists.qmd
+    - appB_glossary.qmd
+
+editor: source
+
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme:
+      light: cosmo
+      dark: darkly
+    code-fold: false
+    code-tools: false
+    link-external-icon: true
+    link-external-newwindow: true
+    df-print: paged
+    smooth-scroll: true
+    highlight-style: github
+    include-after-body:
+      text: |
+        <footer style="margin-top:2rem;font-size:.9em;opacity:.85;">
+          <div style="display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap">
+            <span>Insurance Risk & Analytics Forum — {{< meta host_chapter >}}</span>
+            <span>{{< meta version >}} · {{< meta release_date >}}</span>
+          </div>
+        </footer>
+
+  pdf:
+    documentclass: scrbook
+    toc: true
+    number-sections: true
+    pdf-engine: lualatex
+    keep-tex: true
+    include-in-header:
+      text: |
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyhead[RE]{\nouppercase{\leftmark}}
+        \fancyhead[LO]{\nouppercase{\rightmark}}
+        \fancyfoot[C]{\thepage}
+
+bibliography: references.bib

@@ -1,0 +1,7 @@
+---
+title: "Risk Mitigation & Engineering"
+---
+
+- Wind mitigation credits; code compliance; secondary modifiers.  
+- Flood elevation & NFIP coordination; IoT pilots.  
+- KPIs: mitigation adoption; AAL deltas; ROI of credits.

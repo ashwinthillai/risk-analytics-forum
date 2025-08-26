@@ -1,0 +1,24 @@
+---
+title: "Insurance Risk & Analytics Forum"
+subtitle: "Unified Casebook"
+---
+
+**Editor:** {{< meta book_editor >}}  
+**Version:** {{< meta version >}} · **Release Date:** {{< meta release_date >}}
+
+---
+
+## About
+
+A company-agnostic, practitioner-led forum documenting **ERM best practices**, **catastrophe modeling**, **actuarial pricing**, and **risk transfer** for P&C insurance.
+
+This edition is hosted by the **{{< meta host_chapter >}}**.
+
+### Organization
+- **Tracks** are multi-month thematic series.
+- Each Track is a **Part** with self-contained chapters and exhibits.
+- Shared **Appendices** provide templates, checklists, and a glossary.
+
+### Publishing
+- Built with **Quarto** → HTML site & PDF export.
+- Exhibits emphasize **reproducibility** (inputs, assumptions, version logs).

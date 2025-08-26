@@ -1,0 +1,95 @@
+project:
+  type: book
+
+metadata:
+  book_editor: "Ashwin Thillai, M.S., C.E.E.M"
+  version: "v1.0"
+  release_date: "2025-08-26"
+  host_chapter: "Verisk EES Chapter (Boston)"
+
+book:
+  title: "Insurance Risk & Analytics Forum"
+  subtitle: "A practitioner casebook on ERM, catastrophe modeling, and insurance analytics"
+
+  chapters:
+    - index.qmd
+
+    - part: "Track-1: ERM Best Practices at Major P&C Carriers (Spring-Fall 2025)"
+      chapters:
+        - t1/01_exposure_hazard_mapping.qmd
+        - t1/02_cat_modeling_frameworks.qmd
+        - t1/03_metrics_aal_ep_tvar.qmd
+        - t1/04_capital_adequacy_risk_appetite.qmd
+        - t1/05_reinsurance_and_risk_transfer.qmd
+        - t1/06_underwriting_pricing_models.qmd
+        - t1/07_portfolio_diversification.qmd
+        - t1/08_risk_mitigation_engineering.qmd
+        - t1/09_governance_monitoring_erm.qmd
+        - t1/10_innovation_research_pipeline.qmd
+        - t1/11_case_study_fl_wind_flood.qmd
+
+    - part: "Track-2: Reinsurance Optimization & Risk Transfer (Winter-Summer 2026)"
+      chapters:
+        - t2/00_track2_overview.qmd
+        - t2/01_market_landscape.qmd
+        - t2/02_tower_design_methods.qmd
+        - t2/03_qs_xol_tradeoffs.qmd
+        - t2/04_parametric_catbonds_ilws.qmd
+        - t2/05_counterparty_credit_collateral.qmd
+        - t2/06_cost_benefit_capital_relief.qmd
+        - t2/07_case_studies_and_sim.qmd
+
+    - part: "Track-3: Climate and Emerging Risks (TBD)"
+      chapters:
+        - t3/00_track3_overview.qmd
+        - t3/01_nonstationarity_methods.qmd
+        - t3/02_compound_flood_heat_wind.qmd
+        - t3/03_downscaling_scenarios.qmd
+        - t3/04_governance_disclosures.qmd
+        - t3/05_casebook.qmd
+
+  appendices:
+    - references.qmd
+    - appA_templates_checklists.qmd
+    - appB_glossary.qmd
+
+editor: source
+
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme:
+      light: cosmo
+      dark: darkly
+    code-fold: true
+    code-tools: true
+    link-external-icon: true
+    link-external-newwindow: true
+    df-print: paged
+    smooth-scroll: true
+    highlight-style: github
+    include-after-body:
+      text: |
+        <footer style="margin-top:2rem;font-size:.9em;opacity:.85;">
+          <div style="display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap">
+            <span>Insurance Risk & Analytics Forum — {{< meta host_chapter >}}</span>
+            <span>Editor: {{< meta editor >}} · v{{< meta version >}} · {{< meta release_date >}}</span>
+          </div>
+        </footer>
+
+  pdf:
+    documentclass: scrbook
+    toc: true
+    number-sections: true
+    pdf-engine: lualatex
+    keep-tex: true
+    include-in-header:
+      text: |
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyhead[RE]{\nouppercase{\leftmark}}
+        \fancyhead[LO]{\nouppercase{\rightmark}}
+        \fancyfoot[C]{\thepage}
+
+bibliography: references.bib

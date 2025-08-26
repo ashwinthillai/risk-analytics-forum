@@ -1,0 +1,6 @@
+---
+title: "Portfolio Diversification & Product Mix"
+---
+
+- Geography (inland FL; Southeast spillover) & product mix (renters/condo/small commercial).
+- Analytics: correlation matrices; volatility reduction; capital efficiency.

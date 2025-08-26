@@ -1,0 +1,133 @@
+---
+title: "Track-1 Overview"
+---
+
+**Chapter Host:** {{< meta host_chapter >}}  
+---
+
+## Why this Track
+
+Track-1 establishes a unified, practitioner-oriented view of **Enterprise Risk Management (ERM)** for large P&C carriers, balancing **catastrophe modeling** (Touchstone / Touchstone Re and peers) with **actuarial pricing**, **capital adequacy**, and **risk transfer** practices.  
+We aim for **reproducible analyses**, transparent assumptions, and decision-grade exhibits you can reuse in committee packs and model governance memos.
+
+
+---
+
+## Learning Objectives
+
+By the end of Track-1, participants will be able to:
+
+1. **Frame ERM for a cat-exposed P&C portfolio**  
+   - Set risk context, identify accumulations, and define measurable risk appetite.
+
+2. **Operationalize catastrophe models** for decision support  
+   - Produce and interpret **AAL**, **OEP/AEP EP curves**, **PML**, **TVaR** (gross → net), and articulate key modeling assumptions and sensitivities.
+
+3. **Link modeling outputs to capital and reinsurance**  
+   - Translate tails to **capital sufficiency**; design/compare **quota share** and **XoL** towers; quantify **ROL**, **net AAL**, and **tail reduction**.
+
+4. **Embed underwriting & pricing discipline**  
+   - Combine cat loss costs with actuarial models (GLM/GBM) and implement guardrails (elevation, roof, surge proximity, code compliance).
+
+5. **Design portfolio-level mitigations and diversification**  
+   - Evaluate mitigation credits, code impacts, and cross-segment diversification for volatility and capital efficiency gains.
+
+6. **Build durable ERM governance**  
+   - Institute quarterly ERM packs, model change logs, controls, and event-response playbooks; document validation and versioning.
+
+7. **Drive an innovation backlog**  
+   - Prioritize climate deltas, non-stationarity, ML property attributes, and near-real-time event analytics with clear pilot KPIs.
+
+---
+
+## What You’ll Produce (Track Deliverables)
+
+- **Case Exhibits**: EP curves, AAL bridges (gross → net), tail tables, retention/layer trade studies.
+- **Reinsurance Trade Study**: Options vs. **ROL / net AAL / TVaR / capital relief** with recommendation.
+- **Risk Appetite Statement**: Measurable limits/targets aligned to capital and liquidity.
+- **Governance Artifacts**: Model change log, quarterly ERM pack checklist, event-response runbook.
+- **Capstone Case Study**: Florida single-family homeowners, wind & flood; premium = **$1B**.
+
+---
+
+## Prerequisites
+
+- Familiarity with cat modeling concepts (perils, exposure attributes, vulnerability, demand surge).
+- Working knowledge of actuarial pricing basics (GLM/relativities) and reinsurance structures (QS, XoL).
+- Access to modeling and analytics tools listed below.
+
+---
+
+## Tooling & Data
+
+- **Cat Platforms**: Touchstone / Touchstone Re (primary), RMS (peer review), JBA/KatRisk (flood detail), Hazus (public baseline).  
+- **Data**: Policy admin, geocodes, FEMA FIRM, NOAA SLR, LiDAR DEM, parcel/roof attributes where available.  
+- **Analytics**: Python/R for analysis and plotting; QGIS/ArcGIS for hazard mapping; Quarto for reproducible publishing.
+
+---
+
+## Track Cadence & Chapter Map
+
+- **T1.02** Overview
+- **T1.03** Exposure & Hazard Mapping  
+- **T1.04** Cat Modeling Frameworks (Touchstone, RMS, JBA)  
+- **T1.05** AAL, EP, TVaR — Metrics & Interpretation  
+- **T1.06** Capital Adequacy & Risk Appetite  
+- **T1.07** Reinsurance & Risk Transfer Best Practices  
+- **T1.08** Underwriting & Pricing Beyond CAT  
+- **T1.09** Portfolio Diversification & Product Mix  
+- **T1.10** Risk Mitigation & Engineering  
+- **T1.11** Governance, Monitoring & ERM Best Practices  
+- **T1.12** Innovation & Research Pipeline  
+- **T1.13** Capstone: Florida Wind & Flood Portfolio (Premium = $1B)
+
+> Each chapter includes: objectives, minimal datasets, step-by-step workflow, exhibits, and decision notes.
+
+---
+
+## Assessment & Exercises
+
+- **Hands-on labs**: Run EP curves, build AAL bridges, and compare RI towers.  
+- **Short memos**: 1–2 page decision briefs (risk appetite, RI recommendation).  
+- **Peer reviews**: Cross-check assumptions, inputs, and reproducibility for a selected exhibit.
+
+---
+
+## Governance & Reproducibility
+
+- **Versioning**: Record model version, options, exposure snapshot date, vulnerability set, stochastic seed.  
+- **Change Log**: Capture deltas and expected impact; attach pre/post exhibits.  
+- **Controls**: Two-person review for all capstone figures; retain CSVs and parameter files.  
+- **Publish**: Commit `.qmd` + assets; render HTML/PDF with date-stamped footers.
+
+---
+
+## Reading & References (Starter)
+
+- Paul Hopkin, *Fundamentals of Risk Management* (for ERM framing)  
+- Swiss Re Sigma reports (NatCat market insights)  
+- NAIC RBC materials (capital context)  
+- FEMA FIRM / Hazus references (hazard baselines)  
+- AIR/Verisk Touchstone & Touchstone Re documentation; RMS technical docs
+
+---
+
+## Attribution
+
+- **Editor:** _Name, Title/Team — Role in this track_  
+- **Chapter Host:** {{< meta host_chapter >}}  
+- **Contributing Authors:**  
+  - _Name, Title/Team — Role in this track_  
+  - _Name, Title/Team — Role in this track_  
+- **Invited Speakers:**  
+  - _Name, Organization — “Talk Title” (Date)_  
+  - _Name, Organization — “Talk Title” (Date)_
+
+---
+
+## Notes to Contributors
+
+- Keep exhibits reproducible: include inputs, seeds, and model options.  
+- Use consistent figure/table captions and units.  
+- Add a short “Decision Relevance” paragraph under each exhibit.
+

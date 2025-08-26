@@ -1,0 +1,14 @@
+---
+title: "Catastrophe Modeling Frameworks (Touchstone, RMS, JBA, etc.)"
+---
+
+- **Touchstone / Touchstone Re** (AIR/Verisk): wind, surge, rainfall flood; portfolio & treaty views.
+- RMS; JBA/KatRisk for flood granularity; Hazus (public baseline).
+
+**Governance.** Version control; validation memos; sensitivity to vulnerability, demand surge, clustering, climate deltas.
+
+**Touchstone flow.**
+1) Import exposure & assign attributes  
+2) Run wind/surge/flood modules  
+3) Extract **AAL**, **OEP/AEP**, **TVaR**  
+4) In Touchstone Re: apply **QS/XoL**; iterate retention/layers; export net views

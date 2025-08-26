@@ -1,0 +1,12 @@
+---
+title: "Appendix A: Templates & Checklists"
+---
+
+## Cat Model Run Template
+- Scope/perils, versions & options, exposure snapshot, outputs (AAL/OEP/AEP/TVaR), reviewer/approver
+
+## Reinsurance Trade Study Template
+- Objective, tower options, **ROL / net AAL / TVaR** table, counterparty limits, recommendation
+
+## Governance Checklists
+- Quarterly ERM pack, model change log fields, event response readiness

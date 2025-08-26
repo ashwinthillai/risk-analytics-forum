@@ -1,0 +1,7 @@
+---
+title: "Underwriting & Pricing Models Beyond CAT"
+---
+
+- GLM/GBM blending **experience**, **exposure**, **cat loss costs**; ZIP & construction relativities.
+- Guardrails: elevation certs, roof age/material, distance to water, code compliance, moratoria.
+- Monitoring: rate adequacy heatmaps, hit ratios, loss ratio by segment.

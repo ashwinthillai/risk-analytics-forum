@@ -1,0 +1,330 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Insurance Risk & Analytics Forum",
+    "section": "",
+    "text": "0.1 About\nA company-agnostic, practitioner-led forum documenting ERM best practices, catastrophe modeling, actuarial pricing, and risk transfer for P&C insurance.\nThis edition is hosted by the Verisk EES Chapter (Boston).",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Insurance Risk & Analytics Forum</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Insurance Risk & Analytics Forum",
+    "section": "",
+    "text": "0.1.1 Organization\n\nTracks are multi-month thematic series.\nEach Track is a Part with self-contained chapters and exhibits.\nShared Appendices provide templates, checklists, and a glossary.\n\n\n\n0.1.2 Publishing\n\nBuilt with Quarto → HTML site & PDF export.\nExhibits emphasize reproducibility (inputs, assumptions, version logs).",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Insurance Risk & Analytics Forum</span>"
+    ]
+  },
+  {
+    "objectID": "t1/00_track1_overview.html",
+    "href": "t1/00_track1_overview.html",
+    "title": "2  Track-1 Overview",
+    "section": "",
+    "text": "2.1 Why this Track\nTrack-1 establishes a unified, practitioner-oriented view of Enterprise Risk Management (ERM) for large P&C carriers, balancing catastrophe modeling (Touchstone / Touchstone Re and peers) with actuarial pricing, capital adequacy, and risk transfer practices.\nWe aim for reproducible analyses, transparent assumptions, and decision-grade exhibits you can reuse in committee packs and model governance memos.",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Track-1 Overview</span>"
+    ]
+  },
+  {
+    "objectID": "t1/00_track1_overview.html#learning-objectives",
+    "href": "t1/00_track1_overview.html#learning-objectives",
+    "title": "2  Track-1 Overview",
+    "section": "2.2 Learning Objectives",
+    "text": "2.2 Learning Objectives\nBy the end of Track-1, participants will be able to:\n\nFrame ERM for a cat-exposed P&C portfolio\n\nSet risk context, identify accumulations, and define measurable risk appetite.\n\nOperationalize catastrophe models for decision support\n\nProduce and interpret AAL, OEP/AEP EP curves, PML, TVaR (gross → net), and articulate key modeling assumptions and sensitivities.\n\nLink modeling outputs to capital and reinsurance\n\nTranslate tails to capital sufficiency; design/compare quota share and XoL towers; quantify ROL, net AAL, and tail reduction.\n\nEmbed underwriting & pricing discipline\n\nCombine cat loss costs with actuarial models (GLM/GBM) and implement guardrails (elevation, roof, surge proximity, code compliance).\n\nDesign portfolio-level mitigations and diversification\n\nEvaluate mitigation credits, code impacts, and cross-segment diversification for volatility and capital efficiency gains.\n\nBuild durable ERM governance\n\nInstitute quarterly ERM packs, model change logs, controls, and event-response playbooks; document validation and versioning.\n\nDrive an innovation backlog\n\nPrioritize climate deltas, non-stationarity, ML property attributes, and near-real-time event analytics with clear pilot KPIs.",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Track-1 Overview</span>"
+    ]
+  },
+  {
+    "objectID": "t1/00_track1_overview.html#what-youll-produce-track-deliverables",
+    "href": "t1/00_track1_overview.html#what-youll-produce-track-deliverables",
+    "title": "2  Track-1 Overview",
+    "section": "2.3 What You’ll Produce (Track Deliverables)",
+    "text": "2.3 What You’ll Produce (Track Deliverables)\n\nCase Exhibits: EP curves, AAL bridges (gross → net), tail tables, retention/layer trade studies.\nReinsurance Trade Study: Options vs. ROL / net AAL / TVaR / capital relief with recommendation.\nRisk Appetite Statement: Measurable limits/targets aligned to capital and liquidity.\nGovernance Artifacts: Model change log, quarterly ERM pack checklist, event-response runbook.\nCapstone Case Study: Florida single-family homeowners, wind & flood; premium = $1B.",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Track-1 Overview</span>"
+    ]
+  },
+  {
+    "objectID": "t1/00_track1_overview.html#prerequisites",
+    "href": "t1/00_track1_overview.html#prerequisites",
+    "title": "2  Track-1 Overview",
+    "section": "2.4 Prerequisites",
+    "text": "2.4 Prerequisites\n\nFamiliarity with cat modeling concepts (perils, exposure attributes, vulnerability, demand surge).\nWorking knowledge of actuarial pricing basics (GLM/relativities) and reinsurance structures (QS, XoL).\nAccess to modeling and analytics tools listed below.",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Track-1 Overview</span>"
+    ]
+  },
+  {
+    "objectID": "t1/00_track1_overview.html#tooling-data",
+    "href": "t1/00_track1_overview.html#tooling-data",
+    "title": "2  Track-1 Overview",
+    "section": "2.5 Tooling & Data",
+    "text": "2.5 Tooling & Data\n\nCat Platforms: Touchstone / Touchstone Re (primary), RMS (peer review), JBA/KatRisk (flood detail), Hazus (public baseline).\n\nData: Policy admin, geocodes, FEMA FIRM, NOAA SLR, LiDAR DEM, parcel/roof attributes where available.\n\nAnalytics: Python/R for analysis and plotting; QGIS/ArcGIS for hazard mapping; Quarto for reproducible publishing.",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Track-1 Overview</span>"
+    ]
+  },
+  {
+    "objectID": "t1/00_track1_overview.html#track-cadence-chapter-map",
+    "href": "t1/00_track1_overview.html#track-cadence-chapter-map",
+    "title": "2  Track-1 Overview",
+    "section": "2.6 Track Cadence & Chapter Map",
+    "text": "2.6 Track Cadence & Chapter Map\n\nT1.02 Overview\nT1.03 Exposure & Hazard Mapping\n\nT1.04 Cat Modeling Frameworks (Touchstone, RMS, JBA)\n\nT1.05 AAL, EP, TVaR — Metrics & Interpretation\n\nT1.06 Capital Adequacy & Risk Appetite\n\nT1.07 Reinsurance & Risk Transfer Best Practices\n\nT1.08 Underwriting & Pricing Beyond CAT\n\nT1.09 Portfolio Diversification & Product Mix\n\nT1.10 Risk Mitigation & Engineering\n\nT1.11 Governance, Monitoring & ERM Best Practices\n\nT1.12 Innovation & Research Pipeline\n\nT1.13 Capstone: Florida Wind & Flood Portfolio (Premium = $1B)\n\n\nEach chapter includes: objectives, minimal datasets, step-by-step workflow, exhibits, and decision notes.",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Track-1 Overview</span>"
+    ]
+  },
+  {
+    "objectID": "t1/00_track1_overview.html#assessment-exercises",
+    "href": "t1/00_track1_overview.html#assessment-exercises",
+    "title": "2  Track-1 Overview",
+    "section": "2.7 Assessment & Exercises",
+    "text": "2.7 Assessment & Exercises\n\nHands-on labs: Run EP curves, build AAL bridges, and compare RI towers.\n\nShort memos: 1–2 page decision briefs (risk appetite, RI recommendation).\n\nPeer reviews: Cross-check assumptions, inputs, and reproducibility for a selected exhibit.",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Track-1 Overview</span>"
+    ]
+  },
+  {
+    "objectID": "t1/00_track1_overview.html#governance-reproducibility",
+    "href": "t1/00_track1_overview.html#governance-reproducibility",
+    "title": "2  Track-1 Overview",
+    "section": "2.8 Governance & Reproducibility",
+    "text": "2.8 Governance & Reproducibility\n\nVersioning: Record model version, options, exposure snapshot date, vulnerability set, stochastic seed.\n\nChange Log: Capture deltas and expected impact; attach pre/post exhibits.\n\nControls: Two-person review for all capstone figures; retain CSVs and parameter files.\n\nPublish: Commit .qmd + assets; render HTML/PDF with date-stamped footers.",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Track-1 Overview</span>"
+    ]
+  },
+  {
+    "objectID": "t1/00_track1_overview.html#reading-references-starter",
+    "href": "t1/00_track1_overview.html#reading-references-starter",
+    "title": "2  Track-1 Overview",
+    "section": "2.9 Reading & References (Starter)",
+    "text": "2.9 Reading & References (Starter)\n\nPaul Hopkin, Fundamentals of Risk Management (for ERM framing)\n\nSwiss Re Sigma reports (NatCat market insights)\n\nNAIC RBC materials (capital context)\n\nFEMA FIRM / Hazus references (hazard baselines)\n\nAIR/Verisk Touchstone & Touchstone Re documentation; RMS technical docs",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Track-1 Overview</span>"
+    ]
+  },
+  {
+    "objectID": "t1/00_track1_overview.html#attribution",
+    "href": "t1/00_track1_overview.html#attribution",
+    "title": "2  Track-1 Overview",
+    "section": "2.10 Attribution",
+    "text": "2.10 Attribution\n\nEditor: Name, Title/Team — Role in this track\n\nChapter Host: Verisk EES Chapter (Boston)\n\nContributing Authors:\n\nName, Title/Team — Role in this track\n\nName, Title/Team — Role in this track\n\n\nInvited Speakers:\n\nName, Organization — “Talk Title” (Date)\n\nName, Organization — “Talk Title” (Date)",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Track-1 Overview</span>"
+    ]
+  },
+  {
+    "objectID": "t1/00_track1_overview.html#notes-to-contributors",
+    "href": "t1/00_track1_overview.html#notes-to-contributors",
+    "title": "2  Track-1 Overview",
+    "section": "2.11 Notes to Contributors",
+    "text": "2.11 Notes to Contributors\n\nKeep exhibits reproducible: include inputs, seeds, and model options.\n\nUse consistent figure/table captions and units.\n\nAdd a short “Decision Relevance” paragraph under each exhibit.",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Track-1 Overview</span>"
+    ]
+  },
+  {
+    "objectID": "t1/01_exposure_hazard_mapping.html",
+    "href": "t1/01_exposure_hazard_mapping.html",
+    "title": "3  Exposure Analysis & Hazard Mapping",
+    "section": "",
+    "text": "Objectives. Build exposure inventory (TIV, construction, year built, mitigation), map wind/surge/flood hazards, and quantify accumulations.\nData & Tools. Policy admin, geocoding, FEMA FIRM/NOAA SLR/LiDAR DEM; QGIS/ArcGIS; parcel attributes.\nWorkflow. 1. Data QC & geocoding checks 2. Zonal aggregations (county/ZIP/grid) 3. Accumulations & thresholds (e.g., %TIV within 2km coast) 4. Mitigation inventory (roof, shutters, FBC compliance)\nOutputs. TIV choropleths, surge/flood overlays, accumulation tables.",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Exposure Analysis & Hazard Mapping</span>"
+    ]
+  },
+  {
+    "objectID": "t1/02_cat_modeling_frameworks.html",
+    "href": "t1/02_cat_modeling_frameworks.html",
+    "title": "4  Catastrophe Modeling Frameworks (Touchstone, RMS, JBA, etc.)",
+    "section": "",
+    "text": "Touchstone / Touchstone Re (AIR/Verisk): wind, surge, rainfall flood; portfolio & treaty views.\nRMS; JBA/KatRisk for flood granularity; Hazus (public baseline).\n\nGovernance. Version control; validation memos; sensitivity to vulnerability, demand surge, clustering, climate deltas.\nTouchstone flow. 1) Import exposure & assign attributes\n2) Run wind/surge/flood modules\n3) Extract AAL, OEP/AEP, TVaR\n4) In Touchstone Re: apply QS/XoL; iterate retention/layers; export net views",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Catastrophe Modeling Frameworks (Touchstone, RMS, JBA, etc.)</span>"
+    ]
+  },
+  {
+    "objectID": "t1/03_metrics_aal_ep_tvar.html",
+    "href": "t1/03_metrics_aal_ep_tvar.html",
+    "title": "5  AAL, EP Curves, and Tail Metrics in Practice",
+    "section": "",
+    "text": "Interpret AAL, OEP/AEP, PML, TVaR, ROL.\nViews: Gross, Net of RI, Net of reinstatements by geography/attributes.\nExample thresholds: AAL ≤ 12–15% of premium; capital+RI ≥ 120–150% of AEP 1-in-100.\nExhibits: EP curve plots; Gross→Net AAL bridges; tail tables.",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>AAL, EP Curves, and Tail Metrics in Practice</span>"
+    ]
+  },
+  {
+    "objectID": "t1/04_capital_adequacy_risk_appetite.html",
+    "href": "t1/04_capital_adequacy_risk_appetite.html",
+    "title": "6  Capital Adequacy & Risk Appetite",
+    "section": "",
+    "text": "NAIC RBC / internal economic capital.\nDraft Risk Appetite Statement (limits on AAL, AEP/OEP PMLs, TVaR, reinsurer credit).\nScenarios: Ian/Irma/Michael; compound flood; multi-event with reinstatements.\nOutputs: sufficiency vs AEP 1-in-100/250; triggers for plan re-balancing.",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Capital Adequacy & Risk Appetite</span>"
+    ]
+  },
+  {
+    "objectID": "t1/05_reinsurance_and_risk_transfer.html",
+    "href": "t1/05_reinsurance_and_risk_transfer.html",
+    "title": "7  Reinsurance & Risk Transfer Best Practices",
+    "section": "",
+    "text": "Structures: Quota Share, XoL (per-occ/agg), reinstatements, ILWs, cat bonds, parametrics.\nOptimization loop: Target retention → tower options → ROL / net AAL / TVaR → counterparty/credit → capital relief.\nExhibits: Layer tables, placement map, QS vs XoL bridges.",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Reinsurance & Risk Transfer Best Practices</span>"
+    ]
+  },
+  {
+    "objectID": "t1/06_underwriting_pricing_models.html",
+    "href": "t1/06_underwriting_pricing_models.html",
+    "title": "8  Underwriting & Pricing Models Beyond CAT",
+    "section": "",
+    "text": "GLM/GBM blending experience, exposure, cat loss costs; ZIP & construction relativities.\nGuardrails: elevation certs, roof age/material, distance to water, code compliance, moratoria.\nMonitoring: rate adequacy heatmaps, hit ratios, loss ratio by segment.",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Underwriting & Pricing Models Beyond CAT</span>"
+    ]
+  },
+  {
+    "objectID": "t1/07_portfolio_diversification.html",
+    "href": "t1/07_portfolio_diversification.html",
+    "title": "9  Portfolio Diversification & Product Mix",
+    "section": "",
+    "text": "Geography (inland FL; Southeast spillover) & product mix (renters/condo/small commercial).\nAnalytics: correlation matrices; volatility reduction; capital efficiency.",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Portfolio Diversification & Product Mix</span>"
+    ]
+  },
+  {
+    "objectID": "t1/08_risk_mitigation_engineering.html",
+    "href": "t1/08_risk_mitigation_engineering.html",
+    "title": "10  Risk Mitigation & Engineering",
+    "section": "",
+    "text": "Wind mitigation credits; code compliance; secondary modifiers.\n\nFlood elevation & NFIP coordination; IoT pilots.\n\nKPIs: mitigation adoption; AAL deltas; ROI of credits.",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Risk Mitigation & Engineering</span>"
+    ]
+  },
+  {
+    "objectID": "t1/09_governance_monitoring_erm.html",
+    "href": "t1/09_governance_monitoring_erm.html",
+    "title": "11  Governance, Monitoring & ERM Best Practices",
+    "section": "",
+    "text": "Quarterly Risk Committee; model validation cadence; change-log controls.\n\nDashboards: AAL% premium, EP coverage, treaty utilization, accumulation drift.",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Governance, Monitoring & ERM Best Practices</span>"
+    ]
+  },
+  {
+    "objectID": "t1/10_innovation_research_pipeline.html",
+    "href": "t1/10_innovation_research_pipeline.html",
+    "title": "12  Innovation & Research Pipeline",
+    "section": "",
+    "text": "Climate adjustments / non-stationarity; ML property attributes; near-real-time event response.\n\nPilot design: hypothesis → data → experiment → KPI lift → go/no-go.",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Innovation & Research Pipeline</span>"
+    ]
+  },
+  {
+    "objectID": "t1/11_case_study_fl_wind_flood.html",
+    "href": "t1/11_case_study_fl_wind_flood.html",
+    "title": "13  Case Study: Florida Wind & Flood Portfolio (Premium = $1B)",
+    "section": "",
+    "text": "Setup. Exposure snapshot; hazard overlays; baseline AAL/EP (gross).\nDecisions. Risk appetite; target retention; selected RI program (QS/XoL/parametric).\nResults. Gross→Net AAL bridge; tail reduction; capital alignment.\nLessons. Model sensitivity; governance wins; roadmap.",
+    "crumbs": [
+      "Track-1: ERM Best Practices at Major P&C Carriers (Fall 2025)",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Case Study: Florida Wind & Flood Portfolio (Premium = $1B)</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "Appendix A — References",
+    "section": "",
+    "text": "Swiss Re Sigma Reports (NatCat)\nFlorida OIR guidance & model filing references\nAIR/Verisk Touchstone & Touchstone Re documentation\nRMS technical documentation\nNAIC RBC materials\nFEMA FIRM / Hazus references",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>References</span>"
+    ]
+  },
+  {
+    "objectID": "appA_templates_checklists.html",
+    "href": "appA_templates_checklists.html",
+    "title": "Appendix B — Appendix A: Templates & Checklists",
+    "section": "",
+    "text": "B.1 Cat Model Run Template",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Appendix A: Templates & Checklists</span>"
+    ]
+  },
+  {
+    "objectID": "appA_templates_checklists.html#cat-model-run-template",
+    "href": "appA_templates_checklists.html#cat-model-run-template",
+    "title": "Appendix B — Appendix A: Templates & Checklists",
+    "section": "",
+    "text": "Scope/perils, versions & options, exposure snapshot, outputs (AAL/OEP/AEP/TVaR), reviewer/approver",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Appendix A: Templates & Checklists</span>"
+    ]
+  },
+  {
+    "objectID": "appA_templates_checklists.html#reinsurance-trade-study-template",
+    "href": "appA_templates_checklists.html#reinsurance-trade-study-template",
+    "title": "Appendix B — Appendix A: Templates & Checklists",
+    "section": "B.2 Reinsurance Trade Study Template",
+    "text": "B.2 Reinsurance Trade Study Template\n\nObjective, tower options, ROL / net AAL / TVaR table, counterparty limits, recommendation",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Appendix A: Templates & Checklists</span>"
+    ]
+  },
+  {
+    "objectID": "appA_templates_checklists.html#governance-checklists",
+    "href": "appA_templates_checklists.html#governance-checklists",
+    "title": "Appendix B — Appendix A: Templates & Checklists",
+    "section": "B.3 Governance Checklists",
+    "text": "B.3 Governance Checklists\n\nQuarterly ERM pack, model change log fields, event response readiness",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Appendix A: Templates & Checklists</span>"
+    ]
+  },
+  {
+    "objectID": "appB_glossary.html",
+    "href": "appB_glossary.html",
+    "title": "Appendix C — Appendix B: Glossary",
+    "section": "",
+    "text": "AAL — Average Annual Loss …\nEP Curve — Exceedance Probability curve …\nTVaR — Tail Value at Risk …",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Appendix B: Glossary</span>"
+    ]
+  }
+]

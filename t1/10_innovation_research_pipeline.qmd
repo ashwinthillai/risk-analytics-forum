@@ -1,0 +1,6 @@
+---
+title: "Innovation & Research Pipeline"
+---
+
+- Climate adjustments / non-stationarity; ML property attributes; near-real-time event response.  
+- Pilot design: hypothesis → data → experiment → KPI lift → go/no-go.

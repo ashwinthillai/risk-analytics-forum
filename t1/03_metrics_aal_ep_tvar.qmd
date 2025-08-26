@@ -1,0 +1,8 @@
+---
+title: "AAL, EP Curves, and Tail Metrics in Practice"
+---
+
+- Interpret **AAL**, **OEP/AEP**, **PML**, **TVaR**, **ROL**.
+- Views: **Gross**, **Net of RI**, **Net of reinstatements** by geography/attributes.
+- Example thresholds: AAL ≤ 12–15% of premium; capital+RI ≥ 120–150% of **AEP 1-in-100**.
+- Exhibits: EP curve plots; Gross→Net AAL bridges; tail tables.

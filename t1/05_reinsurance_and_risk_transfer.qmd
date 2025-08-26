@@ -1,0 +1,7 @@
+---
+title: "Reinsurance & Risk Transfer Best Practices"
+---
+
+**Structures:** Quota Share, XoL (per-occ/agg), reinstatements, ILWs, cat bonds, parametrics.  
+**Optimization loop:** Target retention → tower options → **ROL / net AAL / TVaR** → counterparty/credit → capital relief.  
+**Exhibits:** Layer tables, placement map, QS vs XoL bridges.

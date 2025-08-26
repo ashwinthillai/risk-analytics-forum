@@ -1,0 +1,10 @@
+---
+title: "References"
+---
+
+- Swiss Re Sigma Reports (NatCat)
+- Florida OIR guidance & model filing references
+- AIR/Verisk Touchstone & Touchstone Re documentation
+- RMS technical documentation
+- NAIC RBC materials
+- FEMA FIRM / Hazus references

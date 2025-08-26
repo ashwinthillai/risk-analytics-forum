@@ -1,0 +1,6 @@
+---
+title: "Governance, Monitoring & ERM Best Practices"
+---
+
+- Quarterly Risk Committee; model validation cadence; change-log controls.  
+- Dashboards: AAL% premium, EP coverage, treaty utilization, accumulation drift.

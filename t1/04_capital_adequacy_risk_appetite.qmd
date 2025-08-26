@@ -1,0 +1,8 @@
+---
+title: "Capital Adequacy & Risk Appetite"
+---
+
+- NAIC RBC / internal economic capital.
+- Draft **Risk Appetite Statement** (limits on AAL, AEP/OEP PMLs, TVaR, reinsurer credit).
+- Scenarios: Ian/Irma/Michael; compound flood; multi-event with reinstatements.
+- Outputs: sufficiency vs AEP 1-in-100/250; triggers for plan re-balancing.

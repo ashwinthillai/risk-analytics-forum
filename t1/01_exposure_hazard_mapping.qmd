@@ -1,0 +1,15 @@
+---
+title: "Exposure Analysis & Hazard Mapping"
+---
+
+**Objectives.** Build exposure inventory (TIV, construction, year built, mitigation), map **wind/surge/flood** hazards, and quantify accumulations.
+
+**Data & Tools.** Policy admin, geocoding, FEMA FIRM/NOAA SLR/LiDAR DEM; QGIS/ArcGIS; parcel attributes.
+
+**Workflow.**
+1. Data QC & geocoding checks
+2. Zonal aggregations (county/ZIP/grid)
+3. Accumulations & thresholds (e.g., %TIV within 2km coast)
+4. Mitigation inventory (roof, shutters, FBC compliance)
+
+**Outputs.** TIV choropleths, surge/flood overlays, accumulation tables.
